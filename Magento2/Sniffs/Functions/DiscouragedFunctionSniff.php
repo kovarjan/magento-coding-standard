@@ -87,6 +87,7 @@ class DiscouragedFunctionSniff extends ForbiddenFunctionsSniff
         '^parse_ini_file$' => null,
         '^parsekit_compile_string$' => null,
         '^pcntl_.*$' => null,
+        '^posix_isatty$' => 'stream_isatty',
         '^posix_.*$' => null,
         '^pfpro_.*$' => null,
         '^pfsockopen$' => null,
